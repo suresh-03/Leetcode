@@ -1,4 +1,4 @@
-public class maxConsecutiveOnesIII_1004 {
+public class _1004_maxConsecutiveOnesIII {
 
         public int longestOnes(int[] nums, int k) {
             int right = 0;

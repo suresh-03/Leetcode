@@ -3,7 +3,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class majorityElementII_229 {
+public class _229_majorityElementII {
     public List<Integer> majorityElement(int[] nums) {
         ArrayList<Integer> list = new ArrayList<>();
         HashMap<Integer,Integer> map = new HashMap<>();

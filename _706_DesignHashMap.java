@@ -1,7 +1,7 @@
 import java.util.HashMap;
 
 // MY SOLUTION
-public class DesignHashMap_706 {
+public class _706_DesignHashMap {
     class MyHashMap {
       public HashMap<Integer,Integer> map;
     public MyHashMap() {
