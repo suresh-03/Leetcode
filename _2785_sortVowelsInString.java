@@ -1,3 +1,7 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashSet;
+
 public class _2785_sortVowelsInString {
     class Solution {
         public String sortVowels(String s) {
