@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class vip_cafe {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
+        try (Scanner in = new Scanner(System.in)) {
             int n = in.nextInt();
             int[] arr = new int[n];
             for(int i = 0; i < n; i++){
@@ -36,6 +36,7 @@ public class vip_cafe {
             }
             
                    System.out.println("answer:"+alServed);
+        }
 
         }
         
